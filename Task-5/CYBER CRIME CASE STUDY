@@ -1,0 +1,18 @@
+Case Study: The MGM Resorts Social Engineering & Ransomware Attack (2023)
+
+In September 2023, MGM Resorts International, a global hospitality and entertainment giant, suffered a catastrophic cyberattack orchestrated by the threat group "Scattered Spider" (UNC3944) in collaboration with the ALPHV/BlackCat ransomware gang. This incident serves as a premier case study for Student Digital Ambassadors, highlighting how psychological manipulation can bypass even the most sophisticated technical defenses.
+The Attack Vector: Social Engineering & Vishing
+
+The breach did not originate through a software vulnerability or a complex code exploit. Instead, it began with "vishing" (voice phishing). An attacker used LinkedIn to harvest personal details of an MGM employee and then called the company’s IT help desk impersonating them. Through a brief, ten-minute conversation, the attacker manipulated the technician into resetting the employee’s credentials. This granted the intruders administrative access to MGM’s identity management environments (Okta and Azure), effectively giving them the "keys to the kingdom" without triggering traditional security alarms.
+Impact and Consequences
+
+Once inside, the attackers moved laterally through the network, exfiltrating six terabytes of sensitive data and deploying ransomware. To contain the threat, MGM took the drastic step of shutting down its global IT infrastructure. The result was operational paralysis: digital room keys ceased functioning, slot machines went dark, and online reservation systems crashed. MGM estimated the total financial impact at approximately $100 million, encompassing lost revenue and remediation costs. Notably, MGM refused to pay the ransom, opting instead for a rigorous system recovery process.
+Key Lessons for Digital Literacy
+
+The MGM breach offers vital takeaways for modern digital citizenship:
+
+    The Human Firewall: Technical defenses are only as strong as the personnel operating them. Rigid identity verification protocols are essential for all IT support roles.
+
+    Phish-Resistant MFA: This attack demonstrated that standard Multi-Factor Authentication can be circumvented via social engineering. Organizations are now shifting toward hardware-based security keys.
+
+    Psychological Awareness: Comprehensive training must focus on recognizing psychological manipulation (social engineering), which remains the most targeted vulnerability in the digital age.
